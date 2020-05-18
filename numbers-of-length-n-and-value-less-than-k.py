@@ -1,3 +1,6 @@
+# time: O(logC) [A can have at max 10 values]
+# extra-space: O(logC) [to store digits of C]
+
 from math import log10
 
 class Solution:
