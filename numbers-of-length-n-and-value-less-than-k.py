@@ -15,7 +15,7 @@ class Solution:
         dc = int(log10(C) + 1)
         
         # If B > digits in C
-        # No number with B digits can be greater than C
+        # No number with B digits can be smaller than C
         if B > dc:
             return 0
             
